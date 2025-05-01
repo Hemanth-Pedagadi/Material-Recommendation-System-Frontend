@@ -1,14 +1,14 @@
 import React from "react";
-// import videoFile from "../Assets/video1.mp4";
+import videoFile from "../Assets/video.mp4";
 import { Link } from "react-router-dom";
 import "./Welcome.css";
 
 const WelcomePage = () => {
   return (
     <div className="welcome-container">
-      {/* <video autoPlay muted loop className="background-video">
+      <video autoPlay muted loop className="background-video">
         <source src={videoFile} type="video/mp4" />
-      </video> */}
+      </video>
       <div className="overlay">
         <div className="content">
           <h1 className="main-heading">Welcome!</h1>
