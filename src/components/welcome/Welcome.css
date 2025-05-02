@@ -1,17 +1,16 @@
 body, html, .welcome-container {
   margin: 0;
   padding: 0;
-  height: 100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Background video */
-.background-video {
+#myVideo {
   position: fixed;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 /* Overlay to darken video */
