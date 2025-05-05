@@ -1,0 +1,175 @@
+/* Reset some defaults */
+body, h1, h2, h3, p, ul, li, input, button, select {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f6f8;
+  color: #333;
+}
+/* Header */
+.header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.header nav ul {
+  list-style: none;
+}
+
+.header nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.header nav ul li a:hover {
+  color: #18bc9c;
+}
+
+/* Intro Section */
+.intro {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #ecf0f1;
+}
+
+.intro h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.intro p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* Recommendation Form */
+.recommendation-form {
+  background-color: #fff;
+  width: 90%;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 25px 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.08);
+}
+
+.recommendation-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.recommendation-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #18bc9c;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.recommendation-form button:hover {
+  background-color: #149174;
+}
+
+/* Recommendations Section */
+.recommendations {
+  width: 95%;
+  max-width: 1100px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+}
+
+.recommendations h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.recommendations table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.recommendations th,
+.recommendations td {
+  border: 1px solid #e1e1e1;
+  padding: 12px 10px;
+  text-align: center;
+}
+
+.recommendations th {
+  background-color: #2c3e50;
+  color: white;
+  font-size: 15px;
+}
+
+.recommendations td {
+  font-size: 14px;
+  background-color: #fafafa;
+}
+
+.recommendations td[colspan="5"] {
+  padding: 15px;
+  background-color: #ffffff;
+}
+
+/* Footer */
+.footer {
+  margin-top: 50px;
+  padding: 30px 20px;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}

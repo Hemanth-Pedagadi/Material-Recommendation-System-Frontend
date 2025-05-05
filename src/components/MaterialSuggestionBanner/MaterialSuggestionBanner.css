@@ -1,0 +1,88 @@
+/* Container for the Material Suggestion Banner */
+.material-banner {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+  transition: all 0.3s ease;
+  border-left: 5px solid #18bc9c; /* Accent color for banner */
+}
+
+/* Banner header styling */
+.banner-header {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.banner-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Material details container */
+.banner-details {
+  margin: 15px 0;
+}
+
+/* Each material detail row */
+.banner-detail {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  font-size: 1rem;
+}
+
+.detail-label {
+  font-weight: 600;
+  color: #444;
+}
+
+.detail-value {
+  font-weight: 400;
+  color: #555;
+}
+
+/* Footer with button */
+.banner-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.more-info-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #18bc9c;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.more-info-btn:hover {
+  background-color: #17a18b;
+}
+
+@media (max-width: 768px) {
+  .material-banner {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .banner-title {
+    font-size: 1.2rem;
+  }
+
+  .more-info-btn {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
