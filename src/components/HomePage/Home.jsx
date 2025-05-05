@@ -15,7 +15,7 @@ const MaterialRecommendation = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("https://material-recommendation-backend.vercel.app/recommend", {
+      const response = await fetch("https://construction-material-recommendation-system-backend.vercel.app/recommend", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
