@@ -11,7 +11,7 @@ function ForgotPassword() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const res = await axios.post("https://material-recommendation-backend.vercel.app/forgot-password", { email });
+            const res = await axios.post("https://construction-material-recommendation-system-backend.vercel.app/forgot-password", { email });
             setMessage(res.data.message + ". Token: " + res.data.token);
             localStorage.setItem("resetToken", res.data.token);
             setShowResetButton(true);
