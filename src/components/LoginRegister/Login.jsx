@@ -13,7 +13,7 @@ const Login = () => {
     const formData = { email, password };
 
     try {
-      const response = await fetch("https://material-recommendation-backend.vercel.app/login", {
+      const response = await fetch("https://construction-material-recommendation-system-backend.vercel.app/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
