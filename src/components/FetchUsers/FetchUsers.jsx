@@ -5,7 +5,7 @@ function UserList() {
   const [users, setUsers] = useState([]);
 
   const fetchUsers = () => {
-    fetch("https://material-recommendation-backend.vercel.app/users")
+    fetch("https://construction-material-recommendation-system-backend.vercel.app/users")
       .then((res) => res.json())
       .then((data) => setUsers(data))
       .catch((err) => console.error("Error fetching users:", err));
@@ -13,7 +13,7 @@ function UserList() {
 
   const handleDelete = (id) => {
     if (window.confirm("Are you sure you want to delete this user?")) {
-      fetch(`https://material-recommendation-backend.vercel.app/users/${id}`, {
+      fetch(`https://construction-material-recommendation-system-backend.vercel.app/users/${id}`, {
         method: "DELETE",
       })
         .then((res) => {
