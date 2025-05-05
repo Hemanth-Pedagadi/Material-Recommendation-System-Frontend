@@ -17,7 +17,7 @@ function ResetPassword() {
         }
 
         try {
-            const res = await axios.post("https://material-recommendation-backend.vercel.app/reset-password", { token, new_password: newPassword });
+            const res = await axios.post("https://construction-material-recommendation-system-backend.vercel.app/reset-password", { token, new_password: newPassword });
             setMessage(res.data.message);
             localStorage.removeItem("resetToken"); 
         } catch (err) {
